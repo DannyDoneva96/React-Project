@@ -1,0 +1,14 @@
+body { background: #2889ba; }
+
+header {
+    position: relative;
+    height: 1000px;
+    min-height: 500px;
+    width: 100%;
+    background: #17719f url(./butterfly.jpg) no-repeat top center;
+    background-size: cover ;
+     -webkit-background-size: cover ;
+    text-align: center;
+    overflow: hidden;
+ }
+ 
