@@ -3,13 +3,13 @@ import React from 'react';
 export const Footer= ()=>{
 
 
-    return (<footer>
+    return (<footer className="footer">
 
    
-        <ul >
-           <li>&copy; Copyright 2022 D.Doneva</li>
+        
+        <p>  &copy; Copyright 2022 D.Doneva</p>
          
-        </ul>
+       
 
     
 </footer>)
