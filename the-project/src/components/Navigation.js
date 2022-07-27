@@ -10,6 +10,12 @@ export const Nav =()=>{
      <li><a  href="#resume">Resume</a></li>
     <li><a  href="#portfolio">Works</a></li>
     <li><a  href="#contact">Contact</a></li>
+    <li><a  href="#references">references</a></li>
+ 
+    <li><a  className="logReg" href="#references">login</a></li>
+    <li><a className="logReg" href="#references">register</a></li>
+
+
  </ul>
  </nav>
  );

@@ -52,7 +52,8 @@ body {
      border-color: rgba(49, 191, 231, 0.8);
   }
   #nav-conteiner{
-     font: 12px 'opensans-bold', sans-serif;
+   background-color: rgba(227, 226, 226, 0.674);
+     font: 8px 'opensans-bold', sans-serif;
      width: 100%;
      text-transform: uppercase;
      letter-spacing: 2.5px;
@@ -61,11 +62,16 @@ body {
      left: 0;
      top: 0;
   }
+  .logReg{
+   text-align: right;
+  } 
+  
   ul#nav {
      min-height: 48px;
      width: auto;
      text-align: center;
   }
+  
   ul#nav li {
      position: relative;
      list-style: none;
