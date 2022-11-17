@@ -1,14 +1,13 @@
-import { Nav } from './components/Navigation'
+import './default.scss'
 import {Header} from './components/Header'
-import { Footer } from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <Nav />
+     
       <Header />
 
-      <Footer/>
+   
     </div>
   );
 }
