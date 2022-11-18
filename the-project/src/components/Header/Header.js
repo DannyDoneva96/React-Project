@@ -1,10 +1,16 @@
 import React from 'react';
 import './styles.scss'
+import Logo from '../../images/logo.png'
+
+
 export  const Header = (props) =>{
     return (<header id="header">
 
-    <div className="header-content">
+    <div className="wrap">
+    <div className="logo">
+      <img src={Logo} alt="logo"/>
       
+    </div>
     </div>
 
    
