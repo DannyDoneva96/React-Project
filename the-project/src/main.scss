@@ -1,6 +1,84 @@
 
-@media  screen and (max-width: 400px){
-    .a-dir {
-        font-size:0.5rem
-    }
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
+
+//  Home PAge
+
+.wrap-dir{
+    height: calc(100vh - 7rem);
+   
+}
+.women{
+    position: relative;
+    width:50%;
+    height:100%;
+    float:left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.men{
+    position: relative;
+    width:50%;
+    height:100%;
+    float:right;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.a-dir {
+    font-family: 'Rubik Dirt', cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+      font-size: 1.8rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #a6a6a6;
+    background-color: #545454;
+border-radius:1rem;
+    padding:0.5rem 2rem;
+    box-shadow: 2px 5px 6px  #a6a6a6;
+}
+
+.a-dir:hover{
+    color: #545454;
+    background-color: #a6a6a6;
+    box-shadow: 2px 5px 6px  #545454;
+
+}
+
+
+
+#header{
+    height: 7rem;
+   
+}
+.wrap{
+    position: relative;
+    height: 100%;
+    max-width: 1450px;
+    margin :0 auto ;
+
+}
+.logo {
+   position: absolute;
+   width: 9rem;
+   top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+
+}
+.logo img{
+    width:100%;
+    margin: 0
+}
+
+.homepage{
+    height: calc(100vh - 7rem);
+    
+
 }
