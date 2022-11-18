@@ -82,3 +82,33 @@ border-radius:1rem;
     
 
 }
+
+// Navigation
+
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color:white
+
+}
+.navigation li  {
+    list-style-type: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:white;
+
+
+}
+.navigation li a  {
+    text-decoration: none;
+    color:white;
+
+
+}
+.logo-nav{
+    width:150px
+
+}
