@@ -1,10 +1,13 @@
+import { Route, Routes, useNavigate } from 'react-router-dom'
+
+//Stylesheets
 import './reset.scss'
 import './main.scss'
 import './responsive.scss'
-import { Route, Routes, useNavigate } from 'react-router-dom'
-import { Header } from './components/Header/Header'
-import { Home } from './components/Pages/Home'
 
+//Pages / Layouts
+import { Home } from './components/Pages/Home'
+import { Login } from './components/Pages/Login'
 import { Directory } from './components/Header/Directory'
 
 
@@ -21,6 +24,7 @@ function App() {
         
         <Route path="/home" element={<Home />} />
 
+        <Route path="/login" element={<Login />} />
 
 
 
