@@ -10,3 +10,11 @@
       margin-top:20px;
     }
   }
+  @media  screen and (max-width: 600px){
+
+    .main-login-container {
+      flex-direction: column-reverse;
+      height:unset;
+      
+  }
+}

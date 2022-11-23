@@ -175,11 +175,38 @@ border-radius:1rem;
 
 
   }
+  .logo-login{
+    margin-bottom: 1rem;
+  }
+
     .form-login{
+
         display:flex;
         flex-direction: column;
+        color: #a6a6a6;
 
-        
+    }
+    .form-login input{
+        border-radius:13px;
+        margin: 0.5rem;
+    }
+    .form-login label{
+        align-self: center;
+        font-size: 22px;
+    }
+    .btn-login{
+        margin-top: 1rem;
+        width:50%;
+        align-self: center;
+        border-radius:13px;
+        cursor: pointer;
+        border:none;
+        margin-bottom: 1rem;
+    }
+    .btn-login:hover{
+     background-color: #a6a6a6;
+     color:#545454
+
     }
   .container{
     align-self: center;
