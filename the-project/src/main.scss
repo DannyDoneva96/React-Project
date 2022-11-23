@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
 
 
-//  Home PAge
+//  Directory - Welcome PAge//  Directory - Welcome PAge//  Directory - Welcome PAge
 
 .wrap-dir{
     height: calc(100vh - 7rem);
@@ -83,7 +83,7 @@ border-radius:1rem;
 
 }
 
-// Navigation
+// Navigation// Navigation// Navigation// Navigation// Navigation// Navigation// Navigation
 
 
 .navigation {
@@ -113,7 +113,7 @@ border-radius:1rem;
 
 }
 
-//Footer
+//Footer//Footer//Footer//Footer//Footer//Footer//Footer//Footer//Footer//Footer//Footer
 .footer {
     text-align:center;
 
@@ -161,5 +161,28 @@ border-radius:1rem;
     box-shadow:0 0 0 1px rgba(255,255,255,0.4);
     margin: 1rem 1rem 0;
     color:#a6a6a6;
+    
+  }
+
+
+  // Login // Login // Login // Login // Login // Login // Login // Login
+
+  .main-login-container{
+       display:flex;
+       justify-content:center;
+       width:100%;
+       height:100vh;
+
+
+  }
+    .form-login{
+        display:flex;
+        flex-direction: column;
+
+        
+    }
+  .container{
+    align-self: center;
+    margin:auto
     
   }
