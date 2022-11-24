@@ -120,13 +120,13 @@ border-radius:1rem;
 
 //Footer//Footer//Footer//Footer//Footer//Footer//Footer//Footer//Footer//Footer//Footer
 .footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     margin: auto;
     align-self: center;
     text-align:center;
-    border-top: 1px solid;
+    border-top: 2px solid white;
     padding:15px 0;
     color:#a6a6a6;
     background-color:#545454;
@@ -225,4 +225,21 @@ border-radius:1rem;
     align-self: center;
     margin:auto
     
+  }
+
+  //Article aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaarticle
+.womenC{
+   
+border-top:2px solid #545454;
+border-bottom:2px solid #545454;
+    background-color: white;
+
+
+}
+  .allArticleContainer{
+    text-align: center;
+    align-self: center;
+    width:100%;
+    
+
   }

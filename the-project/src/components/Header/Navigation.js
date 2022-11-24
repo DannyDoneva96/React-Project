@@ -4,7 +4,7 @@ import Logo from '../../images/logo.png'
 export const Navigation = (props) => {
     return (
         <header className="navCon">
-            <div>
+            <div className="stickypo">
 
                 <ul className="navigation">
 
