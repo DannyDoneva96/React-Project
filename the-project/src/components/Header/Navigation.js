@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom'
 import Logo from '../../images/logo.png'
 
-export const Navigation = (props) => {
+export const Navigation = () => {
 
     const [visible, setVisible] = useState(true)
 
