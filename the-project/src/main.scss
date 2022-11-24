@@ -85,8 +85,13 @@ border-radius:1rem;
 
 // Navigation// Navigation// Navigation// Navigation// Navigation// Navigation// Navigation
 
+ .navCon{
+    border-bottom: 1px solid white;
 
+ }
 .navigation {
+    max-width: 1450px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -115,12 +120,20 @@ border-radius:1rem;
 
 //Footer//Footer//Footer//Footer//Footer//Footer//Footer//Footer//Footer//Footer//Footer
 .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    align-self: center;
     text-align:center;
-
     border-top: 1px solid;
     padding:15px 0;
     color:#a6a6a6;
     background-color:#545454;
+  }
+  .footer .container{
+    max-width: 1450px;
+    margin: auto;
   }
 .services ul a{
 

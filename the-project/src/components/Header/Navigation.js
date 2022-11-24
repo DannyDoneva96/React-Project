@@ -3,7 +3,7 @@ import Logo from '../../images/logo.png'
 
 export const Navigation = (props) => {
     return (
-        <header>
+        <header className="navCon">
             <div>
 
                 <ul className="navigation">
@@ -23,16 +23,16 @@ export const Navigation = (props) => {
                         <Link to="/">Намаления</Link>
                     </li>
                     <li>
-                        <Link to="/"><i class="fa-solid fa-magnifying-glass"></i> </Link>
+                        <Link to="/"><i className="fa-solid fa-magnifying-glass"></i> </Link>
 
                     </li>
 
                     <li>
-                    <i class="fa-solid fa-phone"></i>
+                    <i className="fa-solid fa-phone"></i>
                     </li>
 
                     <li>
-                    <i class="fa-solid fa-cart-plus"></i>           
+                    <i className="fa-solid fa-cart-plus"></i>           
                                  </li>
 
 

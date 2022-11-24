@@ -8,6 +8,8 @@ import './responsive.scss'
 //Pages / Layouts
 import { Home } from './components/Pages/Home'
 import { Login } from './components/Pages/Login'
+import { Register } from './components/Pages/Register'
+import { Women } from './components/Pages/Women'
 import { Directory } from './components/Header/Directory'
 
 
@@ -23,8 +25,10 @@ function App() {
 
         
         <Route path="/home" element={<Home />} />
+        <Route path="/women" element={<Women />} />
 
         <Route path="/login" element={<Login />} />
+        <Route path="/reg" element={<Register />} />
 
 
 

@@ -6,11 +6,11 @@ export  const Footer = (props) =>{
     <footer className="footer">
 
 
-            <div class="container">
-                <div class="row">
+            <div className="container">
+                <div className="row">
                     
                         
-                    <div class="services">
+                    <div className="services">
                         <h3>Услуги</h3>
                         <ul>
                             <li><a href="#">ОБЩИ УСЛОВИЯ</a></li>
@@ -19,14 +19,14 @@ export  const Footer = (props) =>{
                             <li><a href="#">ПОВЕРИТЕЛНОСТ</a></li>
                            </ul>
                             </div>  
-                            
-                    <div class="social"><a href="https://www.facebook.com/kmbsportbg/"><i class="fa-brands fa-facebook"></i></a><a href="#"><i class="fa-solid fa-envelope"></i></a><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+
+                    <div className="social"><a href="https://www.facebook.com/kmbsportbg/"><i class="fa-brands fa-facebook"></i></a><a href="#"><i class="fa-solid fa-envelope"></i></a><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
                 
                        
 
                  
                   
-                <p class="copyright">KStyle © 2022</p>
+                <p className="copyright">KStyle © 2022</p>
             </div>
             </div>
             </footer>)

@@ -8,7 +8,7 @@ export  const Home = (props) =>{
     return (
         <div>
             <Navigation/>
-       
+             
         <Footer/>
     </div>)
 
