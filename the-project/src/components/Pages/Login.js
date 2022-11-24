@@ -6,13 +6,13 @@ import { UserAuth } from '../../context/AuthContext'
 
 export const Login = () => {
 
-    const  {signIn}  = UserAuth();
+    const { signIn } = UserAuth();
 
     let navigate = useNavigate();
 
 
     const [error, setError] = useState('');
-    
+
     const onSubmit = async (e) => {
         e.preventDefault();
 
@@ -41,14 +41,14 @@ export const Login = () => {
                 <div className="main-div-login">
                     <form onSubmit={onSubmit} className="form-login">
                         <label htmlFor="username" name="email" >Потребител</label>
-                        <input type="text" name="email"  required></input>
+                        <input type="text" name="email" required></input>
                         <label htmlFor="password" name="password" >Парола</label>
-                        <input type="text" name="password"  required></input>
+                        <input type="text" name="password" required></input>
 
-                        <button className="btn-login"><i class="fa-regular fa-paper-plane"></i></button>
+                        <button className="btn-login"><i className="fa-regular fa-paper-plane"></i></button>
                         {error
-                    ?<h3 className="errorMsg">{error}</h3>
-                    : null  }
+                            ? <h3 className="errorMsg">{error}</h3>
+                            : null}
 
                     </form>
 
