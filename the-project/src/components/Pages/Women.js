@@ -1,24 +1,24 @@
-import { Navigation } from '../Header/Navigation'
-import { Footer } from '../Header/Footer'
+import { Navigation } from '../common/Navigation';
+import { Footer } from '../common/Footer';
 import beige from '../../images/w-o-beige.jpg'
 
 export const Women = (props) => {
     return (
         <div>
             <Navigation />
-            
+
             <div className="womenC">
 
                 <div className="allArticleContainer">
                     <p> ДАМСКИ СПОРТНИ ЕКИПИ</p>
                     <div className="article-container">
                         <div className="this will be slider">
-                            
-                          
+
+
                             <img src={beige} alt="beige" />
-                              <h2>Летен екип Nike</h2>
-                              <p>some text here</p>
-                              <p><span className="scretch">80.00лв</span> 50.00лв</p>
+                            <h2>Летен екип Nike</h2>
+                            <p>some text here</p>
+                            <p><span className="scretch">80.00лв</span> 50.00лв</p>
                         </div>
                     </div>
 
