@@ -6,7 +6,6 @@ import './main.scss'
 import './responsive.scss'
 
 //Pages / Layouts
-import { Home } from './components/Pages/Home';
 import { Login } from './components/Pages/Login';
 import { Register } from './components/Pages/Register';
 import { Women } from './components/Pages/Women';
@@ -20,14 +19,12 @@ function App() {
     <div className="App">
 
       <Navigation />
-
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/women" element={<Women />} />
         <Route path="/login" element={<Login />} />
         <Route path="/reg" element={<Register />} />
       </Routes>
-
       <Footer />
     </div>
   );
