@@ -6,24 +6,24 @@ import './main.scss'
 import './responsive.scss'
 
 //Pages / Layouts
-import { Home } from './components/Pages/Home'
-import { Login } from './components/Pages/Login'
-import { Register } from './components/Pages/Register'
-import { Women } from './components/Pages/Women'
-import { Directory } from './components/Header/Directory'
+import { Home } from './components/Pages/Home';
+import { Login } from './components/Pages/Login';
+import { Register } from './components/Pages/Register';
+import { Women } from './components/Pages/Women';
+import { MainPage } from './components/common/MainPage';
 
 
 function App() {
   return (
     <div className="App">
 
-      
+
 
       <Routes>
 
-        <Route path="/" element={<Directory />} />
+        <Route path="/" element={<MainPage />} />
 
-        
+
         <Route path="/home" element={<Home />} />
         <Route path="/women" element={<Women />} />
 

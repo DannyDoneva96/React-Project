@@ -1,15 +1,14 @@
-import { Link } from 'react-router-dom'
-import {Navigation} from '../Header/Navigation'
-import {Footer} from '../Header/Footer'
+import { Link } from 'react-router-dom';
+import { Navigation } from "../common/Navigation";
+import { Footer } from "../common/Footer";
+import Logo from '../../images/logo.png';
 
-import Logo from '../../images/logo.png'
-
-export  const Home = (props) =>{
+export const Home = (props) => {
     return (
         <div>
-            <Navigation/>
-             
-        <Footer/>
-    </div>)
+            <Navigation />
+
+            <Footer />
+        </div>)
 
 }

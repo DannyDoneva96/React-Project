@@ -2,8 +2,13 @@
 
 //  Directory - Welcome PAge//  Directory - Welcome PAge//  Directory - Welcome PAge
 
+.directory {
+  height: 100vh;
+  position: relative;
+}
+
 .wrap-dir {
-  height: calc(100vh - 7rem);
+  height: 100%;
 }
 .women {
   position: relative;
@@ -30,19 +35,28 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 1.8rem;
+  font-size: 3.8rem;
   text-decoration: none;
   text-transform: uppercase;
-  color: #a6a6a6;
-  background-color: #545454;
+  color: #dadada;
+  background-color: #0000008a;
   border-radius: 1rem;
   padding: 0.5rem 2rem;
   box-shadow: 2px 5px 6px #a6a6a6;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  transition: all 100ms ease-in-out;
 }
 
 .a-dir:hover {
-  color: #545454;
+  color: #000000;
   background-color: #a6a6a6;
+  box-shadow: 2px 5px 6px #545454;
+}
+
+.a-dir:active {
+  color: #ffffff;
+  background-color: #000000;
   box-shadow: 2px 5px 6px #545454;
 }
 
@@ -55,16 +69,27 @@
   max-width: 1450px;
   margin: 0 auto;
 }
+
 .logo {
   position: absolute;
-  width: 9rem;
+  width: 20rem;
+  height: 199px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 100;
+  opacity: 85%;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 2px 2px 1px 1px black, 4px 1px 0px white;
 }
+
 .logo img {
   width: 100%;
   margin: 0;
+  height: 200px;
 }
 
 .homepage {
