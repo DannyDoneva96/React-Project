@@ -93,7 +93,7 @@
 }
 
 .homepage {
-  height: calc(100vh - 7rem);
+  height: calc(100vh - 102px);
 }
 
 // Navigation// Navigation// Navigation// Navigation// Navigation// Navigation// Navigation
@@ -101,12 +101,12 @@
 .navCon {
   border-bottom: 1px solid white;
   position: fixed;
-  background: black;
+  background:#545454;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   width: 100%;
-  height: 150px; //same as the logo height
+  height: 102px; //same as the logo height
   z-index: 1000;
 }
 
@@ -115,7 +115,7 @@
   flex-wrap: wrap;
 }
 .navigation {
-  max-width: 1450px;
+  // max-width: 1450px;
   display: flex;
   align-items: center;
   color: white;
@@ -131,7 +131,9 @@
 }
 .navigation li a {
   text-decoration: none;
+  font-size: 24px;
   color: white;
+
 }
 .logo-nav {
   width: 150px;
@@ -149,6 +151,7 @@
   padding: 15px 0;
   color: #a6a6a6;
   background-color: #545454;
+  height: 200px;
 }
 .footer .container {
   max-width: 1450px;
