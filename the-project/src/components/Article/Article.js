@@ -1,9 +1,9 @@
-
+import img from '../../images/w-o-beige.jpg'
 
 export const Article = () => {
     return (
     <div className="article-container">
-    <div className="image-wrapper"></div>
+    <div className="image-wrapper"><img src={img}/></div>
     <div className="content-wrapper">
     {/* here have to display the path */}
       <p className="label">НАЧАЛО / ДАМСКИ СПОРТНИ ЕКИПИ</p>

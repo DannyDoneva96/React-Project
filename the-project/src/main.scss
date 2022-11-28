@@ -320,13 +320,10 @@ body {
 
 }
 
-.image-wrapper {
-  background-image: url(./images/w-o-black.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  border-radius: 10px 10px 0 0;
+.image-wrapper img{
+ 
+  width:300px
+
 }
 .content-wrapper {
   padding: 1rem;

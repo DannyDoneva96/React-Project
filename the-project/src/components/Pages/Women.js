@@ -15,6 +15,8 @@ export const Women = (props) => {
                  */}
                 <div className="allArticleContainer">
                    <Article/>
+                   <Article/>
+                   <Article/>
                 </div>
                 <div> promocii</div>
                 <div> dostavka</div>
