@@ -32,21 +32,40 @@ export const Details = () => {
                 </div>
                 <form className="details-form">
 
-                    <label classNme="colour-label" htmlFor="colour">Цвят:</label>
-                    <select id="colour" name="colour">
+                    <label className="colour-label" htmlFor="colour">Цвят:</label>
+                    <select className="colour-select" id="colour" name="colour">
                         <option value="menta">Мента</option>
                         <option value="beige">Бежов</option>
                         <option value="pink">Розов</option>
                         <option value="grey">Сив</option>
                     </select>
                     {/* custom size template  */}
-                    
+                    <label class="size-label">S
+                        <input type="checkbox"  />
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="size-label">M
+                        <input type="checkbox" />
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="size-label">L
+                        <input type="checkbox" />
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="size-label">XL
+                        <input type="checkbox" />
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <input type="number"  className="quantity" step="1" min="1"  name="quantity"  inputmode="numeric"/>
                 </form>
                 <button className="add-button"><i className="fa-brands fa-shopify"></i>Add to Cart</button>
             </div>
 
             <div className="swiper-container">
-                <p>Colours</p>
                 <Swiper
                     spaceBetween={20}
                     slidesPerView={1}
@@ -58,7 +77,9 @@ export const Details = () => {
                     <SwiperSlide><img src={img2} /></SwiperSlide>
                     <SwiperSlide><img src={img3} /></SwiperSlide>
 
-                </Swiper></div>
+                </Swiper>
+                <p>Swipe the image to see the colours</p>
+</div>
         </div>)
 
 
