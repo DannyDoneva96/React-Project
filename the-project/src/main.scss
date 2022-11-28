@@ -302,14 +302,77 @@ body {
   margin: auto;
 }
 
+
+
 //Article aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaarticle
-.womenC {
-  border-top: 2px solid black;
-  border-bottom: 2px solid #000000;
-  background-color: white;
-}
 .allArticleContainer {
+  margin: 2px;
   text-align: center;
   align-self: center;
   width: 100%;
+
+
+}
+.article-container{
+  display: flex;
+  width: fit-content;
+  flex-flow: row;
+
+}
+
+.image-wrapper {
+  background-image: url(./images/w-o-black.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.content-wrapper {
+  padding: 1rem;
+  border: 1px solid #000000;
+}
+.label {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: rgb(169, 169, 169);
+}
+.header {
+  margin: 1rem 0.2rem 1rem 0;
+  font-size: 35px;
+  color: black;
+}
+.description {
+  color: black;
+  letter-spacing: 0.7px;
+}
+.prices {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.price {
+  color: black;
+  font-size: 35px;
+}
+.price-sale {
+  margin-left: 1rem;
+  color: rgb(196, 4, 4);
+  font-size: 22px;
+  text-decoration: line-through;
+}
+.add-button {
+  width: 100%;
+  background-color: rgb(159, 159, 159);
+  color: white;
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-family: Barlow, Arial, Helvetica, sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }

@@ -2,7 +2,7 @@
 
 export const Article = () => {
     return (
-    <>
+    <div className="article-container">
     <div className="image-wrapper"></div>
     <div className="content-wrapper">
     {/* here have to display the path */}
@@ -15,5 +15,5 @@ export const Article = () => {
       </div>
       <button className="add-button"><i class="fa-brands fa-shopify"></i>Add to Cart</button>
     </div>
-    </>)
+    </div>)
 }
