@@ -373,3 +373,19 @@ body {
   align-items: center;
   gap: 5px;
 }
+
+//details // ................................................................
+
+.article-details{
+  display: flex;
+  width: 50%;
+  margin:auto;
+  align-self: center;
+  
+}
+.swiper-container{
+  width: 100%;
+}
+.content-wrapper-details{
+  padding: 1rem;
+}

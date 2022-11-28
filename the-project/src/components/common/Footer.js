@@ -15,7 +15,7 @@ export const Footer = (props) => {
                             <li><a href="#">ПОВЕРИТЕЛНОСТ</a></li>
                         </ul>
                     </div>
-                    <div className="social"><a href="https://www.facebook.com/kmbsportbg/"><i class="fa-brands fa-facebook"></i></a><a href="#"><i class="fa-solid fa-envelope"></i></a><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+                    <div className="social"><a href="https://www.facebook.com/kmbsportbg/"><i className="fa-brands fa-facebook"></i></a><a href="#"><i className="fa-solid fa-envelope"></i></a><a href="#"><i className="fa-brands fa-instagram"></i></a></div>
                     <p className="copyright">KStyle © 2022</p>
                 </div>
             </div>

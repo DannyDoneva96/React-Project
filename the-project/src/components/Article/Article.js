@@ -1,4 +1,5 @@
 import img from '../../images/w-o-beige.jpg'
+import 'swiper/css';
 
 export const Article = () => {
     return (
@@ -13,7 +14,7 @@ export const Article = () => {
         <h3 className="price">80.00лв</h3>
         <h3 className="price-sale">50.00лв</h3>
       </div>
-      <button className="add-button"><i class="fa-brands fa-shopify"></i>Add to Cart</button>
+      <button className="add-button"><i className="fa-brands fa-shopify"></i>Add to Cart</button>
     </div>
     </div>)
 }
