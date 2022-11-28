@@ -1,7 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap");
 
+html {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 //  Directory - Welcome PAge//  Directory - Welcome PAge//  Directory - Welcome PAge
-
 .directory {
   height: 100vh;
   position: relative;
@@ -101,12 +112,13 @@
 .navCon {
   border-bottom: 1px solid white;
   position: fixed;
-  background:#545454;
+  top: 0;
+  background: black;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   width: 100%;
-  height: 102px; //same as the logo height
+  height: 150px; //same as the logo height
   z-index: 1000;
 }
 
@@ -141,46 +153,89 @@
 
 //Footer//Footer//Footer//Footer//Footer//Footer//Footer//Footer//Footer//Footer//Footer
 .footer {
-  position: relative;
+  position: fixed;
   bottom: 0;
   width: 100%;
-  margin: auto;
+  margin-top: 1rem;
   align-self: center;
   text-align: center;
-  border-top: 2px solid white;
+  /* border-top: 2px solid white; */
   padding: 15px 0;
   color: #a6a6a6;
-  background-color: #545454;
-  height: 200px;
+  background-image: linear-gradient(180deg, black, transparent);
+  box-sizing: border-box;
+  box-shadow: inset 0px 2px 20px 0px black;
+  backdrop-filter: blur(5px);
 }
+
 .footer .container {
   max-width: 1450px;
   margin: auto;
 }
-.services ul a {
-  color: white;
-  text-decoration: none;
-}
-.services ul li {
-  display: inline-block;
-  padding: 1rem 2rem;
-}
-.footer h3 {
-  text-align: center;
 
-  margin-top: 0;
-  margin-bottom: 1rem;
+.footer .services {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+
+.services ul {
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+.services ul a {
+  color: #ffffff;
   font-weight: bold;
-  font-size: 22px;
+  text-decoration: none;
+  text-shadow: 0px 0px 20px #ffffff;
+  box-shadow: 0px 0px 10px 0px #00000075;
+  border-radius: 10px;
+  padding: 0.5rem;
+  transition: all ease-in-out 300ms;
+}
+
+.services ul a:hover {
+  text-shadow: unset;
+  text-decoration: none;
+  box-shadow: 0px 0px 4px 0px white;
+  transition: all ease-in-out 300ms;
+}
+
+.services ul a:active {
+  text-shadow: unset;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.footer h3 {
+  font-size: 1.8rem;
+  color: #ffffff;
+  text-align: center;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+  text-shadow: 0px 0px 20px #ffffff, -1px 1px 1px black;
 }
 
 .footer .copyright {
+  font-size: 1.8rem;
+  color: #ffffff;
   text-align: center;
-  color: #a6a6a6;
-  padding-top: 24px;
-  font-size: 1.5rem;
-  margin-bottom: 0;
+  margin-bottom: 1.5rem;
+  text-shadow: 0px 0px 20px #ffffff, -1px 1px 1px black;
 }
+
+.footer .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
 .footer .social a {
   font-size: 20px;
   width: 36px;
@@ -189,9 +244,24 @@
   display: inline-block;
   text-align: center;
   border-radius: 50%;
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
-  margin: 1rem 1rem 0;
-  color: #a6a6a6;
+  border: 1px solid white;
+  text-shadow: 0px 0px 4px white, 0px 0px 4px white, 0px 0px 4px white, 0px 0px 4px white;
+  box-shadow: 0px 0px 10px 0px black;
+  color: #000000;
+  transition: all ease-in-out 300ms;
+}
+
+.footer .social a:hover {
+  background-color: #0000008f;
+  color: white;
+  box-shadow: 0px 0px 10px 0px rgb(255, 255, 255);
+  text-shadow: unset;
+}
+
+.footer .social a:active {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-shadow: unset;
 }
 
 // Login // Login // Login // Login // Login // Login // Login // Login

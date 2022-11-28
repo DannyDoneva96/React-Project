@@ -22,8 +22,9 @@ export const Navigation = () => {
     return (
         <header className="navCon">
             <div className='logo-container' style={{ display: visible ? "block" : "none" }}>
-                <img className="logo-nav" src={Logo} alt="logo" />
-                <Link to="/"></Link>
+                <Link to="/">
+                    <img className="logo-nav" src={Logo} alt="logo" />
+                </Link>
             </div>
             {/* <div className="stickypo"> */}
             <ul className="navigation">
