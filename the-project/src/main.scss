@@ -111,14 +111,12 @@ body {
 
 .navCon {
   border-bottom: 1px solid white;
-  position: fixed;
-  top: 0;
   background: black;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   width: 100%;
-  height: 150px; //same as the logo height
+  height: 110px; //same as the logo height
   z-index: 1000;
 }
 
@@ -153,14 +151,11 @@ body {
 
 //Footer//Footer//Footer//Footer//Footer//Footer//Footer//Footer//Footer//Footer//Footer
 .footer {
-  position: fixed;
-  bottom: 0;
   width: 100%;
-  margin-top: 1rem;
   align-self: center;
   text-align: center;
   /* border-top: 2px solid white; */
-  padding: 15px 0;
+  padding: 5px 0;
   color: #a6a6a6;
   background-image: linear-gradient(180deg, black, transparent);
   box-sizing: border-box;
@@ -300,7 +295,7 @@ body {
 }
 .btn-login:hover {
   background-color: #a6a6a6;
-  color: #545454;
+  color: #040404;
 }
 .container {
   align-self: center;
@@ -309,8 +304,8 @@ body {
 
 //Article aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaarticle
 .womenC {
-  border-top: 2px solid #545454;
-  border-bottom: 2px solid #545454;
+  border-top: 2px solid black;
+  border-bottom: 2px solid #000000;
   background-color: white;
 }
 .allArticleContainer {
