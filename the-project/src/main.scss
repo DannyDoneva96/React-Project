@@ -111,14 +111,12 @@ body {
 
 .navCon {
   border-bottom: 1px solid white;
-  position: fixed;
-  top: 0;
   background: black;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   width: 100%;
-  height: 150px; //same as the logo height
+  height: 110px; //same as the logo height
   z-index: 1000;
 }
 
@@ -153,14 +151,11 @@ body {
 
 //Footer//Footer//Footer//Footer//Footer//Footer//Footer//Footer//Footer//Footer//Footer
 .footer {
-  position: fixed;
-  bottom: 0;
   width: 100%;
-  margin-top: 1rem;
   align-self: center;
   text-align: center;
   /* border-top: 2px solid white; */
-  padding: 15px 0;
+  padding: 5px 0;
   color: #a6a6a6;
   background-image: linear-gradient(180deg, black, transparent);
   box-sizing: border-box;
@@ -300,21 +295,170 @@ body {
 }
 .btn-login:hover {
   background-color: #a6a6a6;
-  color: #545454;
+  color: #040404;
 }
 .container {
   align-self: center;
   margin: auto;
 }
 
+
+
 //Article aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaarticle
-.womenC {
-  border-top: 2px solid #545454;
-  border-bottom: 2px solid #545454;
-  background-color: white;
-}
 .allArticleContainer {
+  margin: 2px;
   text-align: center;
   align-self: center;
   width: 100%;
+
+
+}
+.article-container{
+  display: flex;
+  width: fit-content;
+  flex-flow: row;
+
+}
+
+.image-wrapper img{
+ 
+  width:300px
+
+}
+.content-wrapper {
+  padding: 1rem;
+  border: 1px solid #000000;
+}
+.label {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: rgb(169, 169, 169);
+}
+.header {
+  margin: 1rem 0.2rem 1rem 0;
+  font-size: 35px;
+  color: black;
+}
+.description {
+  color: black;
+  letter-spacing: 0.7px;
+}
+.prices {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.price {
+  color: black;
+  font-size: 35px;
+}
+.price-sale {
+  margin-left: 1rem;
+  color: rgb(196, 4, 4);
+  font-size: 22px;
+  text-decoration: line-through;
+}
+.add-button {
+  width: 100%;
+  background-color: rgb(159, 159, 159);
+  color: white;
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-family: Barlow, Arial, Helvetica, sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+//details // ................................................................
+
+.article-details{
+  display: flex;
+  width: 50%;
+  margin:auto;
+  align-self: center;
+  
+}
+.swiper-container{
+  width: 100%;
+}
+.content-wrapper-details{
+  padding: 1rem;
+}
+
+.colour-label{
+  margin:1rem;
+  font-size: 1rem;
+}
+.colour-select{
+  margin:1rem;
+  font-size: 1rem;
+
+
+}
+
+.size-label{
+  display: block;
+  position: relative;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.size-label input{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.size-label:hover input ~ .checkmark {
+  background-color: rgb(128, 128, 128);
+}
+
+/* When the checkbox is checked, add a blue background */
+.size-label input:checked ~ .checkmark {
+  background-color: #424242;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.size-label input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.size-label .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }

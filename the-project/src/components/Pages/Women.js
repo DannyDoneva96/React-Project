@@ -1,9 +1,10 @@
 import beige from '../../images/w-o-beige.jpg'
-
+import {Article} from '../Article/Article'
+import {Details} from '../Article/Details'
 export const Women = (props) => {
     return (
         <div className="womenC">
-            <div className="allArticleContainer">
+            {/* <div className="allArticleContainer">
                 <p> ДАМСКИ СПОРТНИ ЕКИПИ</p>
                 <div className="article-container">
                     <div className="this will be slider">
@@ -12,21 +13,13 @@ export const Women = (props) => {
                         <p>some text here</p>
                         <p><span className="scretch">80.00лв</span> 50.00лв</p>
                     </div>
-                </div>
+                 */}
                 <div className="allArticleContainer">
-                    <p> ДАМСКИ СПОРТНИ Обувки</p>
-                    <div className="article-container">
-                        <div className="this will be slider">
-                            img
-                            <h1>article name</h1>
-                            <img src="" alt="" />
-                            <p>some text here</p>
-                        </div>
-                    </div>
+                   <Details/>
                 </div>
                 <div> promocii</div>
                 <div> dostavka</div>
-            </div>
+            
         </div>
     )
 }

@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useState } from 'react';
 import loginImg from '../../images/login-img.jpg'
-import Logo from '../../images/logo.png'
+import Logo from '../../images/new-logo.png'
 import { UserAuth } from '../../context/AuthContext'
 
 export const Login = () => {
